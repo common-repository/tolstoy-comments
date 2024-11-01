@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tolstoy Comments\n"
+"POT-Creation-Date: 2020-04-17 11:16+0300\n"
+"PO-Revision-Date: 2020-04-17 11:26+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: tolstoycomments.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: src/Admin.php:48
+msgid "The task is already running."
+msgstr "The task is already running."
+
+#: src/Plugin.php:74 src/Plugin.php:133
+msgid "Settings"
+msgstr "Settings"
+
+#: src/SettingsFields.php:34
+msgid "by URL"
+msgstr "by URL"
+
+#: src/SettingsFields.php:35 src/SettingsFields.php:46
+#: src/SettingsFields.php:57 src/SettingsFields.php:68
+msgid "example:"
+msgstr "example:"
+
+#: src/SettingsFields.php:45
+msgid "by Identity as post ID"
+msgstr "by Identity as post ID"
+
+#: src/SettingsFields.php:56
+msgid "by Identity as short link"
+msgstr "by Identity as short link"
+
+#: src/SettingsFields.php:67
+msgid "by Identity as full link"
+msgstr "by Identity as full link"
+
+#: src/SettingsPage.php:44
+msgid "Insert code"
+msgstr "Insert code"
+
+#: src/SettingsPage.php:46
+msgid "Site ID"
+msgstr "Site ID"
+
+#: src/SettingsPage.php:47
+msgid "Active"
+msgstr "Active"
+
+#: src/SettingsPage.php:48
+msgid "Binding"
+msgstr "Binding"
+
+#: src/SettingsPage.php:50
+msgid "Export/Import"
+msgstr "Export/Import"
+
+#: src/SettingsPage.php:52
+msgid "API key"
+msgstr "API key"
+
+#: src/SettingsPage.php:53
+msgid "Enable export"
+msgstr "Enable export"
+
+#: src/SettingsPage.php:54
+msgid "Enable import"
+msgstr "Enable import"
+
+#: src/SettingsPage.php:55
+msgid "Enable indexing"
+msgstr "Enable indexing"
+
+#: templates/settings.php:15
+msgid "Save changes"
+msgstr "Save changes"
+
+#: templates/settings.php:15
+msgid "Start export now"
+msgstr "Start export now"
+
+#. Plugin Name of the plugin/theme
+msgid "Tolstoy Comments"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://tolstoycomments.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Replace the standard WordPress comment system on Tolstoy Comments."
+msgstr ""
+"Replace the standard WordPress comment system on Tolstoy Comments.Заменяет "
+"стандартную систему комментариев WordPress на Tolstoy Comments."
+
+#. Author of the plugin/theme
+msgid "DEVLEVR"
+msgstr ""
+
+#~ msgid "Advanced insert settings"
+#~ msgstr "Advanced insert settings"
+
+#~ msgid "Config"
+#~ msgstr "Config"

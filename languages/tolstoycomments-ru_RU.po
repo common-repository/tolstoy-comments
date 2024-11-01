@@ -1,0 +1,183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tolstoy Comments\n"
+"POT-Creation-Date: 2020-11-23 10:42+0300\n"
+"PO-Revision-Date: 2020-11-23 10:43+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: tolstoycomments.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: src/Plugin.php:76 src/Plugin.php:135
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/SettingsFields.php:15
+msgid ""
+"1. Register your site at <a href=\"https://tolstoycomments.com/"
+"\">tolstoycomments.com</a>"
+msgstr ""
+"1. Зарегистрируйте свой сайт на <a href=\"https://tolstoycomments.com/"
+"\">tolstoycomments.com</a>"
+
+#: src/SettingsFields.php:18
+msgid ""
+"2. Copy the Site ID in the Code section of the Tolstoy Comments "
+"administration panel"
+msgstr ""
+"2. В административной панели Tolstoy Comments в разделе “Код” cкопируйте "
+"Site ID "
+
+#: src/SettingsFields.php:30
+msgid "3. Enable the \"Activate\" checkbox to display the plugin at the page"
+msgstr ""
+"3. Чтобы плагин отобразился на странице - включите галку «Активировать»"
+
+#: src/SettingsFields.php:44
+msgid "by URL"
+msgstr "привязка по URL"
+
+#: src/SettingsFields.php:45 src/SettingsFields.php:56
+#: src/SettingsFields.php:67 src/SettingsFields.php:78
+msgid "example:"
+msgstr "пример:"
+
+#: src/SettingsFields.php:55
+msgid "by Identity as post ID"
+msgstr "привязка по Post ID"
+
+#: src/SettingsFields.php:66
+msgid "by Identity as short link"
+msgstr "привязка по короткой ссылке"
+
+#: src/SettingsFields.php:77
+msgid "by Identity as full link"
+msgstr "привязка по полной ссылке"
+
+#: src/SettingsFields.php:89
+msgid ""
+"4. Generate the API access key in the Management section of the Tolstoy "
+"Comments administration panel"
+msgstr ""
+"4. В административной панели Tolstoy Comments в разделе “Управление” "
+"сгенерируйте ключ доступа к API."
+
+#: src/SettingsFields.php:92
+msgid ""
+"ATTENTION! Import/export of comments as well as indexation won't won't work "
+"without the API access key."
+msgstr ""
+"ВНИМАНИЕ! Без ключа API импорт/экспорт, а также индексация комментариев "
+"работать не будут."
+
+#: src/SettingsFields.php:104
+msgid ""
+"5. Enable the \"Export\" checkbox if you would like to transfer all the "
+"comments into WordPress database after the plugin removal."
+msgstr ""
+"5. Включите галочку “Экспорт”, если хотите чтобы после удаления плагина "
+"Tolstoy Comments, комментарии написанные в нем перенеслись в базу данных "
+"WordPress"
+
+#: src/SettingsFields.php:113
+msgid ""
+"6. Enable the \"Import\" checkbox to transfer the comments from WordPress to "
+"the widget. Select Wordpress in the Comments Import section of the Tolstoy "
+"Comments administration panel. Provide a link to your site and import "
+"comments."
+msgstr ""
+"6. Для переноса комментариев из Wordpress в виджет, включите галочку "
+"«Импорт». В административной панеле Tolstoy Comments в разделе «Импорт "
+"комментариев», выберите Wordpress. Укажите ссылку на свой сайт, импортируйте "
+"комментарии."
+
+#: src/SettingsFields.php:122
+msgid "7. Turn on indexation to make the search engines index the comments."
+msgstr ""
+"7. Чтобы комментарии индексировались поисковиками - включите индексацию."
+
+#: src/SettingsPage.php:43
+msgid "Insert code"
+msgstr "Вставка кода"
+
+#: src/SettingsPage.php:45
+msgid "Site ID"
+msgstr "Site ID"
+
+#: src/SettingsPage.php:46
+msgid "Active"
+msgstr "Автивировать"
+
+#: src/SettingsPage.php:47
+msgid "Binding"
+msgstr "Привязка комментариев"
+
+#: src/SettingsPage.php:49
+msgid "Export/Import"
+msgstr "Экспорт/Импорт комментариев"
+
+#: src/SettingsPage.php:51
+msgid "API key"
+msgstr "Ключ API"
+
+#: src/SettingsPage.php:52
+msgid "Enable export"
+msgstr "Включить экспорт"
+
+#: src/SettingsPage.php:53
+msgid "Enable import"
+msgstr "Включить импорт"
+
+#: src/SettingsPage.php:54
+msgid "Enable indexing"
+msgstr "Включить индексацию"
+
+#: templates/settings.php:15
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: templates/settings.php:20 templates/settings.php:25
+msgid "Start export now"
+msgstr "Запустить экспорт сейчас"
+
+#: templates/settings.php:21
+msgid "The task is already running."
+msgstr "Задача уже запущена."
+
+#. Plugin Name of the plugin/theme
+msgid "Tolstoy Comments"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://tolstoycomments.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Replace the standard WordPress comment system on Tolstoy Comments."
+msgstr ""
+"Заменяет стандартную систему комментариев WordPress на Tolstoy Comments."
+
+#. Author of the plugin/theme
+msgid "DEVLEVR"
+msgstr ""
+
+#~ msgid "Advanced insert settings"
+#~ msgstr "Расширенные настройки вставки"
+
+#~ msgid "Config"
+#~ msgstr "Конфиг"
